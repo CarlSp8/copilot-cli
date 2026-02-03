@@ -1,0 +1,31 @@
+{
+  "name": "@github/copilot",
+  "version": "0.1.0",
+  "description": "GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal.",
+  "main": "src/index.js",
+  "bin": {
+    "copilot": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "echo 'No build step required for this JavaScript CLI'",
+    "test": "node --test"
+  },
+  "keywords": [
+    "github",
+    "copilot",
+    "cli",
+    "ai",
+    "assistant"
+  ],
+  "author": "GitHub",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/github/copilot-cli.git"
+  },
+  "homepage": "https://docs.github.com/copilot/concepts/agents/about-copilot-cli",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
